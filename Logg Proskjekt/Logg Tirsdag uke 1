@@ -1,0 +1,24 @@
+## Prosjektlogg
+
+### Tirsdag
+
+I dag startet jeg arbeidet med prosjektet mitt. Først planla jeg hvordan forum-siden skal se ut og lagde en enkel skisse av et **forms-skjema** som brukerne skal bruke for å skrive meldinger. Skissen inneholder blant annet:
+
+* et tekstfelt for meldingen
+* en knapp for å poste meldingen
+* en oversikt over tidligere meldinger
+
+Dette hjalp meg med å få en bedre oversikt over hvordan siden skal bygges senere i HTML.
+
+Etter det begynte jeg å sette opp **Raspberry Pi-en** som skal brukes som server for prosjektet. Jeg installerte og oppdaterte systemet slik at den er klar til å kjøre webapplikasjonen.
+
+Jeg gjorde blant annet:
+
+* oppdaterte systemet
+* installerte Python
+* installerte Flask
+* installerte MariaDB som skal brukes til databasen
+
+Målet var å gjøre serveren klar slik at jeg senere kan koble forum-applikasjonen til databasen og kjøre den på Raspberry Pi-en.
+
+Neste steg blir å begynne å lage Flask-applikasjonen og koble den til databasen.
